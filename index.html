@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+   
+        <!-- header -->
+    <header id="tile">
+        <h1>5 Day Weather Forecast</h1>
+    </header>
+    
+        <!-- section for search input and button -->
+    <section id="search" class="container">
+        <label for="search-input">Search for a City:</label><br>
+        <input type="text" id="search-input"><br>
+        <button id="search-btn">Search</button>
+     </section>
+    
+    <!-- container for local storage retrieval -->
+    <section id="storage-container">
+        <label for="search-history">Search History:</label>
+        <div class="search-history" id="search-history"></div>
+        <button id="clear-history">Clear</button>
+    </section>
+    
+    <!-- container for current weather api results -->
+    <section id="current-forecast-container"></section>
+    
+    <!-- container for 5 day forecast -->
+    <section id="future-forecast-container" class="row card">
+          
+        <footer id="footer"></footer>
+ 
+</body>
+</html>
